@@ -178,7 +178,7 @@ namespace GemHuntersAssignment
 
             if (Grid[y, x].occupied == "O")
             {
-                Console.WriteLine("Obstacle in the way.");
+                Console.WriteLine("Obstacles in the way.");
                 return false;
             }
 
